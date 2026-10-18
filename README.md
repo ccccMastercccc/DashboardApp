@@ -4,6 +4,43 @@ Build apps that match the Axentra panel's look and feel, without needing to know
 
 Axentra ships with a small widget toolkit (`axentra.kit`) that wraps the common building blocks: layouts, cards, charts, tables, inputs, dialogs, background workers, and settings storage. A live example of every widget is included in `apps/kit_demo`, which also appears in the panel menu.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/images/Screenshot_2026-10-17_231154.png" width="100%" alt="Axentra Home dashboard">
+  <br>
+  <em>The Home page: live CPU, RAM, network, and temperature charts, plus disk and user info.</em>
+</p>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/Screenshot_2026-10-17_231222.png" alt="kit_demo app showing every widget">
+      <br>
+      <em><code>kit_demo</code>: a live example of every widget in the kit.</em>
+    </td>
+    <td width="50%">
+      <img src="docs/images/Screenshot_2026-10-17_231401.png" alt="A mixer app built with the kit">
+      <br>
+      <em>A mixer app built with <code>VolumeKnob</code>, <code>VolumeSlider</code>, and <code>VBar</code> (with right-to-left Persian labels).</em>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/Screenshot_2026-10-17_231243.png" alt="A large grid of knobs and faders">
+      <br>
+      <em>A dense grid of knobs and faders, showing how the kit handles many widgets at once.</em>
+    </td>
+    <td width="50%">
+      <img src="docs/images/Screenshot_2026-10-17_231301.png" alt="The template app">
+      <br>
+      <em><code>template</code>: the minimal starting point for a new app.</em>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Table of Contents
 
 1. [Your First App](#1-your-first-app)
